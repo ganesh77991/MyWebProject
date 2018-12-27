@@ -8,7 +8,7 @@ public class TestLog {
 		
 		log.debug("ganesh Padala");
 		log.info("mounika puligilla");
-		log.warn("annapurna chinnapaka");
+		log.warn("annapurna chinnapaka 1");
 
 	}
 
