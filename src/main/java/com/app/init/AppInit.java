@@ -7,7 +7,7 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
 		// TODO Auto-generated method stub
-		return null;
+		return new Class{AppConfig.class};
 	}
 
 	@Override
@@ -19,7 +19,7 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
 	@Override
 	protected String[] getServletMappings() {
 		// TODO Auto-generated method stub
-		return null;
+		return new String{"/"};
 	}
 
 }
